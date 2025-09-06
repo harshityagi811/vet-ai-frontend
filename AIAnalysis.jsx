@@ -15,7 +15,7 @@ export default function AIAnalysis(){
     fd.append('temperature', temperature);
     fd.append('symptoms', JSON.stringify(symptoms));
     // Replace this URL with your deployed backend URL after deploying
-    const API = 'https://vet-ai-backend.onrender.com/predict';
+    const API = 'https://vet-ai-backend-0de9.onrender.com';
     try{
       const res = await fetch(API, { method:'POST', body: fd });
       const data = await res.json();
