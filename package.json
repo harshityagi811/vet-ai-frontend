@@ -12,7 +12,7 @@
     "react-dom": "^18.2.0"
   },
    "devDependencies": {
-        "vite": "^5.x.x" // Ensure Vite is listed here
+        "vite": "^5.x.x"
       },
 
   "engines": {
