@@ -13,7 +13,7 @@
   },
    "devDependencies": {
         "vite": "^5.x.x"
- },
+   },
 
   "engines": {
     "node": "22.x"
